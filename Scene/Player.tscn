@@ -1,0 +1,97 @@
+[gd_scene load_steps=53 format=2]
+
+[ext_resource path="res://Personagem/templerun/Idle__001.png" type="Texture" id=1]
+[ext_resource path="res://Personagem/templerun/Idle__000.png" type="Texture" id=2]
+[ext_resource path="res://Personagem/templerun/Idle__002.png" type="Texture" id=3]
+[ext_resource path="res://Personagem/templerun/Idle__006.png" type="Texture" id=4]
+[ext_resource path="res://Personagem/templerun/Idle__005.png" type="Texture" id=5]
+[ext_resource path="res://Personagem/templerun/Idle__004.png" type="Texture" id=6]
+[ext_resource path="res://Personagem/templerun/Idle__003.png" type="Texture" id=7]
+[ext_resource path="res://Personagem/templerun/Idle__008.png" type="Texture" id=8]
+[ext_resource path="res://Personagem/templerun/Idle__007.png" type="Texture" id=9]
+[ext_resource path="res://Personagem/templerun/Idle__009.png" type="Texture" id=10]
+[ext_resource path="res://Personagem/templerun/Slide__002.png" type="Texture" id=11]
+[ext_resource path="res://Personagem/templerun/Slide__003.png" type="Texture" id=12]
+[ext_resource path="res://Personagem/templerun/Slide__001.png" type="Texture" id=13]
+[ext_resource path="res://Personagem/templerun/Run__003.png" type="Texture" id=14]
+[ext_resource path="res://Personagem/templerun/Jump__001.png" type="Texture" id=15]
+[ext_resource path="res://Personagem/templerun/Jump__003.png" type="Texture" id=16]
+[ext_resource path="res://Personagem/templerun/Slide__006.png" type="Texture" id=17]
+[ext_resource path="res://Personagem/templerun/Slide__007.png" type="Texture" id=18]
+[ext_resource path="res://Personagem/templerun/Slide__009.png" type="Texture" id=19]
+[ext_resource path="res://Personagem/templerun/Slide__008.png" type="Texture" id=20]
+[ext_resource path="res://Personagem/templerun/Run__004.png" type="Texture" id=21]
+[ext_resource path="res://Personagem/templerun/Jump__000.png" type="Texture" id=22]
+[ext_resource path="res://Personagem/templerun/Run__000.png" type="Texture" id=23]
+[ext_resource path="res://Personagem/templerun/Dead__000.png" type="Texture" id=24]
+[ext_resource path="res://Personagem/templerun/Jump__004.png" type="Texture" id=25]
+[ext_resource path="res://Personagem/templerun/Run__001.png" type="Texture" id=26]
+[ext_resource path="res://Personagem/templerun/Slide__000.png" type="Texture" id=27]
+[ext_resource path="res://Personagem/templerun/Jump__002.png" type="Texture" id=28]
+[ext_resource path="res://Personagem/templerun/Run__002.png" type="Texture" id=29]
+[ext_resource path="res://Personagem/templerun/Jump__005.png" type="Texture" id=30]
+[ext_resource path="res://Personagem/templerun/Jump__007.png" type="Texture" id=31]
+[ext_resource path="res://Personagem/templerun/Jump__006.png" type="Texture" id=32]
+[ext_resource path="res://Personagem/templerun/Jump__009.png" type="Texture" id=33]
+[ext_resource path="res://Personagem/templerun/Jump__008.png" type="Texture" id=34]
+[ext_resource path="res://Personagem/templerun/Dead__001.png" type="Texture" id=35]
+[ext_resource path="res://Personagem/templerun/Dead__003.png" type="Texture" id=36]
+[ext_resource path="res://Personagem/templerun/Dead__006.png" type="Texture" id=37]
+[ext_resource path="res://Personagem/templerun/Dead__005.png" type="Texture" id=38]
+[ext_resource path="res://Personagem/templerun/Dead__002.png" type="Texture" id=39]
+[ext_resource path="res://Personagem/templerun/Dead__004.png" type="Texture" id=40]
+[ext_resource path="res://Personagem/templerun/Dead__007.png" type="Texture" id=41]
+[ext_resource path="res://Personagem/templerun/Run__009.png" type="Texture" id=42]
+[ext_resource path="res://Personagem/templerun/Run__008.png" type="Texture" id=43]
+[ext_resource path="res://Personagem/templerun/Run__006.png" type="Texture" id=44]
+[ext_resource path="res://Personagem/templerun/Run__007.png" type="Texture" id=45]
+[ext_resource path="res://Personagem/templerun/Dead__008.png" type="Texture" id=46]
+[ext_resource path="res://Personagem/templerun/Dead__009.png" type="Texture" id=47]
+[ext_resource path="res://Personagem/templerun/Run__005.png" type="Texture" id=48]
+[ext_resource path="res://Personagem/templerun/Slide__004.png" type="Texture" id=49]
+[ext_resource path="res://Personagem/templerun/Slide__005.png" type="Texture" id=50]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 27 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 20 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "slide",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 8 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "idle",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 23 ), ExtResource( 26 ), ExtResource( 29 ), ExtResource( 14 ), ExtResource( 21 ), ExtResource( 48 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 42 ) ],
+"loop": true,
+"name": "run",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 22 ), ExtResource( 15 ), ExtResource( 28 ), ExtResource( 16 ), ExtResource( 25 ), ExtResource( 30 ), ExtResource( 32 ), ExtResource( 31 ), ExtResource( 34 ), ExtResource( 33 ) ],
+"loop": false,
+"name": "jump",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 24 ), ExtResource( 35 ), ExtResource( 39 ), ExtResource( 36 ), ExtResource( 40 ), ExtResource( 38 ), ExtResource( 37 ), ExtResource( 41 ), ExtResource( 46 ), ExtResource( 47 ) ],
+"loop": false,
+"name": "dead",
+"speed": 15.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 107.303
+height = 274.358
+
+[node name="Player" type="KinematicBody2D"]
+scale = Vector2( 0.3, 0.3 )
+
+[node name="sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "idle"
+frame = 6
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 4.00452, 13.3484 )
+shape = SubResource( 2 )
